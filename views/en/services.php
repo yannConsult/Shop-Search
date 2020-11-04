@@ -186,7 +186,7 @@ include 'inc/header.php';
                                 <p class="card-text py-2 primary-color-dark text-right font-italic">By Noreol</p>
                             </div>
                         </div>
-ss
+
 
                     </div>
                 </a>
