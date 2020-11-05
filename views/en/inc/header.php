@@ -12,15 +12,14 @@ $pg = $page;
 <div class="sc-navbar shadow-sm sticky-top">
     <div class="d-flex justify-content-between align-items-center">
         <div class="d-inline-flex justify-content-center align-items-center">
-            <a class="navbar-brand mx-3" href="./index.php">
+            <a class="navbar-brand mx-3" href="./home.php">
                 <img src="../../assets/images/smart.png" width="55" height="55" alt="Smart Consulting Logo"
                      loading="lazy">
             </a>
             <div class="d-inline-flex justify-content-start align-items-center">
                 <div class="d-flex flex-column justify-content-center align-items-start">
-                    <h6 class="text-white h6-responsive font-weight-bold">Smart Consulting Inc<span
-                                class="accent-color"> .</span></h6>
-                    <h6 class="text-white h6-responsive font-weight-light">Clients satisfaction is our priority</h6>
+                    <h6 class="text-white h6-responsive font-weight-bold">SMART Shop</h6>
+                    <h6 class="text-white h6-responsive font-weight-light">Sell everything online</h6>
                 </div>
             </div>
         </div>

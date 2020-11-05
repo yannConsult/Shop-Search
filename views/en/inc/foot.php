@@ -44,4 +44,5 @@
         crossorigin="anonymous"></script> -->
 
 <script src="../../assets/lib/js/itemslide.min.js"></script>
-<script src="../../assets/lib/js/jquery.film_roll.min"></script>
+<script src="../../assets/lib/js/jquery.film_roll.min.js"></script>
+<script src="../../assets/lib/js/slick.min.js"></script>

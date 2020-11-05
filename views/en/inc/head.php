@@ -19,6 +19,8 @@
 <link rel="stylesheet" href="../../assets/css/bootstrap-grid.css">
 <link rel="stylesheet" href="../../assets/css/materialize.min.css">
 <link rel="stylesheet" href="../../assets/css/materialize.css">
+<link rel="stylesheet" href="../../assets/css/slick.css">
+<link rel="stylesheet" href="../../assets/css/slick-theme.css">
 <link rel="icon" type="image/png" href="../../assets/images/smart.png" />
 
 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
