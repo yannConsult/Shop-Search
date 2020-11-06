@@ -36,7 +36,7 @@ include 'inc/header.php';
                     <div class="row">
                         <div class="col-12">
                             <h3 class="h3-responsive primary-color-dark text-uppercase font-weight-bold py-4 text-center my-3">
-                                Which shop are you looking for ?
+                               Quelles boutiques recherchez-vous ?
                             </h3>
                         </div>
                         <div class="col-12 py-2 py-md-3">
@@ -45,7 +45,7 @@ include 'inc/header.php';
                                     <div class="d-inline-flex justify-content-between align-items-center border rounded-button w-75 mx-auto">
                                         <div class="w-100">
                                             <input class="form-control my-0 py-3  py-4 mx-4 border border-0 " type="text"
-                                            placeholder="Enter the shop name or category" aria-label="Search">
+                                            placeholder="Entrer le nom du magasin ou de la catégorie que vous recherchez" aria-label="Search">
                                         </div>
                                         <div>
                                             <a type="submit" class="p-3 fas fa-search border border-0 mr-4"></a>
@@ -70,10 +70,10 @@ include 'inc/header.php';
                         <div class="col-12 mb-3">
                             <div class="row py-2 ">
                                 <div class="col-2 d-none d-sm-none d-md-block d-lg-block my-auto">
-                                    <h6 class="h6-responsive font-italic ">Quick Search</h6>
+                                    <h6 class="h6-responsive font-italic ">Recherche rapide</h6>
                                 </div>
                                 <div class="col-12 d-block d-sm-block d-md-none d-lg-none">
-                                    <h6 class="h6-responsive font-italic text-center">Quick Search</h6>
+                                    <h6 class="h6-responsive font-italic text-center">Recherche rapide</h6>
                                 </div>
                                 <div class="col-md-10 col-sm-12">
                                     <div class="row py-auto">
@@ -87,16 +87,16 @@ include 'inc/header.php';
                                                     <a href="#" class="no-deco"><div class="py-3 border text-dark px-3 mx-3 mb-2 rounded-button px-4 text-center"> Restaurant</div> </a>
                                                 </div>
                                                 <div>
-                                                    <a href="#" class="no-deco"><div class="py-3 border text-dark px-3 mx-3 mb-2 rounded-button px-4 text-center"> Jewerly</div> </a>
+                                                    <a href="#" class="no-deco"><div class="py-3 border text-dark px-3 mx-3 mb-2 rounded-button px-4 text-center"> Bijoux</div> </a>
                                                 </div>
                                                 <div>
-                                                    <a href="#" class="no-deco"><div class="py-3 border text-dark px-3 mx-3 mb-2 rounded-button px-4 text-center"> Perfume</div> </a>
+                                                    <a href="#" class="no-deco"><div class="py-3 border text-dark px-3 mx-3 mb-2 rounded-button px-4 text-center"> Parfum</div> </a>
                                                 </div>
                                                 <div>
-                                                    <a href="#" class="no-deco"><div class="py-3 border text-dark px-3 mx-3 mb-2 rounded-button px-4 text-center"> Shoes</div> </a>
+                                                    <a href="#" class="no-deco"><div class="py-3 border text-dark px-3 mx-3 mb-2 rounded-button px-4 text-center"> Chaussure</div> </a>
                                                 </div>
                                                 <div>
-                                                    <a href="#" class="no-deco"><div class="py-3 border text-dark px-3 mx-3 mb-2 rounded-button px-4 text-center"> Calendar</div> </a>
+                                                    <a href="#" class="no-deco"><div class="py-3 border text-dark px-3 mx-3 mb-2 rounded-button px-4 text-center"> Calendrier</div> </a>
                                                 </div>
                                                 <!-- <div>
                                                     <a href="#" ><img src="..."> </a>
@@ -129,7 +129,7 @@ include 'inc/header.php';
 
                         <div class="col-12 mb-3">
                             <h6 class="h6-responsive primary-color-dark -4 text-center my-3">
-                                You want to sell? <a href="./subscription.php" class="font-weight-bold primary-color">Submit a request now</a>
+                                Vous voulez vendre? <a href="./subscription.php" class="font-weight-bold primary-color">Faire une requête</a>
                             </h6>
                         </div>
                     </div>
@@ -178,7 +178,7 @@ include 'inc/header.php';
         <div class="container my-4">
             <div class="row mb-3">
                 <div class="col-12 mt-5">
-                    <h3 class="primary-color-dark text-uppercase font-weight-bold">You may also like this</h3>
+                    <h3 class="primary-color-dark text-uppercase font-weight-bold">Vous pourriez aimer ceci</h3>
                 </div>
             </div>
 

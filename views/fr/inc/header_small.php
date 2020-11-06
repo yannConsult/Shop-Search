@@ -5,6 +5,7 @@
  * Date: 06/08/2020
  * Time: 18:46
  */
+
 ?>
 
 <!--NAVBAR-->
@@ -13,19 +14,24 @@
         <div class="d-flex justify-content-between align-items-center">
             <div class="d-inline-flex">
                 <a href="./index.php" class="no-deco round-button-menu text-white opacity-40
-                    d-flex justify-content-center align-items-center shadow-sm icon-menu-color">
-                <i class="fas fa-home fa-1x"> </i>
+                    d-flex justify-content-center align-items-center shadow-sm icon-menu-color" title="Home">
+                    <i class="fas fa-home fa-1x" title="Home"> </i>
+                </a>
+                <a href="./myaccount.php" class="ml-4 no-deco round-button-menu text-white opacity-40
+                    d-flex justify-content-center align-items-center shadow-sm icon-menu-color" title="My Profil">
+                    <i class="fas fa-user fa-1x" title="My Profil"> </i>
                 </a>
                 <?php if (isset($_SESSION["id"])) {
-                ?>
-                <a href="../../../back-end/fr/c_logout.php" class=" ml-4 no-deco round-button-menu text-white opacity-40
-                    d-flex justify-content-center align-items-center shadow-sm icon-menu-color">
-                <i class="fas fa-sign-out-alt fa-1x"> </i>
-                </a>
+                    ?>
+                    <a href="../../../back-end/fr/c_logout.php" class=" ml-4 no-deco round-button-menu text-white opacity-40
+                    d-flex justify-content-center align-items-center shadow-sm icon-menu-color" title="Sign Out">
+                        <i class="fas fa-sign-out-alt fa-1x" title="Sign Out"> </i>
+                    </a>
                     <?php
                 }
                 ?>
             </div>
+
             <div class="d-inline-flex justify-content-center align-items-center">
                 <a class="navbar-brand mx-3" href="./index.php">
                     <img src="../../assets/images/smart.png" width="55" height="55" alt="Smart Consulting Logo"
@@ -76,20 +82,20 @@
 
         </div>
     </li>
-    <li><a href="./index.php" class="primary-color"><i class="fas fa-home primary-color"></i>Accueil</a></li>
+    <li><a href="./index.php" class="primary-color"><i class="fas fa-home primary-color"></i>Home</a></li>
     <li>
         <div class="divider"></div>
     </li>
-    <li><a href="./product.php" class="primary-color"><i class="fas fa-gift primary-color"></i>Produits</a></li>
+    <li><a href="./product.php" class="primary-color"><i class="fas fa-gift primary-color"></i>Product</a></li>
     <li>
         <div class="divider"></div>
     </li>
-    <li><a href="./services.php" class="primary-color"><i class="fab fa-servicestack primary-color"></i>Services</a></li>
+    <li><a href="./services.php" class="primary-color"><i class="fab fa-servicestack primary-color"></i>Service</a></li>
     <li>
         <div class="divider"></div>
     </li>
     <!-- <li><a href="#" class="primary-color"><i class="fas fa-dollar-sign primary-color"></i>Princing</a></li> -->
-    <li><a href="./team.php" class="primary-color"><i class="fas fa-users primary-color"></i>Notre équipe</a></li>
+    <li><a href="./team.php" class="primary-color"><i class="fas fa-users primary-color"></i>Our team</a></li>
     <li>
         <div class="divider"></div>
     </li>
@@ -97,14 +103,15 @@
     <li>
         <div class="divider"></div>
     </li>
-    <li><a href="../en/index.php" class="primary-color"><i class="fas fa-file-contract primary-color"></i>English Version</a></li>
+    <li><a href="../fr/index.php" class="primary-color"><i class="fas fa-file-contract primary-color"></i>Version
+            Française</a></li>
     <li>
         <div class="divider"></div>
     </li>
     <?php if(!isset($_SESSION["id"])){ ?>
         
-            <li><a href="./login.php" class="primary-color"><i class="fas fa-sign-in-alt primary-color"></i>Se connecter</a></li>
-        <?php }else{ ?>
+            <li><a href="./login.php" class="primary-color"><i class="fas fa-sign-in-alt primary-color"></i>Sign In</a></li>
+        <?php }else { ?>
             
             <li>
                <a  href="../../../back-end/en/c_logout.php" class="primary-color"><i class="fas fa-sign-out-alt primary-color"></i>Profil</a>
@@ -112,13 +119,19 @@
             <li>
                 <div class="divider"></div>
             </li>
-            <li><a  href="../../../back-end/en/c_logout.php" class="primary-color"><i class="fas fa-sign-out-alt primary-color"></i>Se déconnecter</a></li>
+            <li><a  href="../../../back-end/en/c_logout.php" class="primary-color"><i class="fas fa-sign-out-alt primary-color"></i>Sign Out</a></li>
         <?php } ?>
+    
     
     <li>
         <div class="divider"></div>
     </li>
-    <li><a target="_blank" href="https://emailmg.ipage.com/roundcube/" class="primary-color"><i class="fas fa-envelope primary-color"></i>Mail</a></li>
+    
+    <li>
+        <div class="divider"></div>
+    </li>
+    <li><a target="_blank" href="https://emailmg.ipage.com/roundcube/" class="primary-color"><i
+                    class="fas fa-envelope primary-color"></i>Mail</a></li>
 </ul>
 
 <ul id="slide-out-mobile" class="sidenav d-block d-sm-block d-md-none">
@@ -137,35 +150,37 @@
 
         </div>
     </li>
-    <li><a href="./index.php" class="primary-color"><i class="fas fa-home primary-color"></i>Accueil</a></li>
+    <li><a href="./index.php" class="primary-color"><i class="fas fa-home primary-color"></i>Home</a></li>
     <li>
         <div class="divider"></div>
     </li>
-    <li><a href="./product.php" class="primary-color"><i class="fas fa-gift primary-color"></i>Produits</a></li>
+    <li><a href="./product.php" class="primary-color"><i class="fas fa-gift primary-color"></i>Product</a></li>
     <li>
         <div class="divider"></div>
     </li>
-    <li><a href="./product.php" class="primary-color"><i class="fab fa-servicestack primary-color"></i>Services</a></li>
+    <li><a href="./product.php" class="primary-color"><i class="fab fa-servicestack primary-color"></i>Service</a></li>
     <li>
         <div class="divider"></div>
     </li>
     <!-- <li><a href="#" class="primary-color"><i class="fas fa-dollar-sign primary-color"></i>Princing</a></li> -->
-    <li><a href="./team.php" class="primary-color"><i class="fas fa-users primary-color"></i>Notre équipe</a></li>
+    <li><a href="./team.php" class="primary-color"><i class="fas fa-users primary-color"></i>Our team</a></li>
     <li>
         <div class="divider"></div>
     </li>
     <li><a href="#" class="primary-color"><i class="fas fa-file-contract primary-color"></i>Porfolio</a></li>
-     <li>
+    <li>
         <div class="divider"></div>
     </li>
-    <li><a href="../en/index.php" class="primary-color"><i class="fas fa-file-contract primary-color"></i>English Version</a></li>
+    <li><a href="../fr/index.php" class="primary-color"><i class="fas fa-file-contract primary-color"></i>Version
+            Française</a></li>
+
     <li>
         <div class="divider"></div>
     </li>
     <?php if(!isset($_SESSION["id"])){ ?>
-        
-            <li><a href="./login.php" class="primary-color"><i class="fas fa-sign-in-alt primary-color"></i>Se connecter</a></li>
-        <?php }else{ ?>
+       
+            <li><a href="./login.php" class="primary-color"><i class="fas fa-sign-in-alt primary-color"></i>Sign In</a></li>
+        <?php } else{ ?>
             
             <li>
                <a  href="../../../back-end/en/c_logout.php" class="primary-color"><i class="fas fa-sign-out-alt primary-color"></i>Profil</a>
@@ -173,12 +188,13 @@
             <li>
                 <div class="divider"></div>
             </li>
-            <li><a  href="../../../back-end/en/c_logout.php" class="primary-color"><i class="fas fa-sign-out-alt primary-color"></i>Se déconnecter</a></li>
+            <li><a  href="../../../back-end/en/c_logout.php" class="primary-color"><i class="fas fa-sign-out-alt primary-color"></i>Sign Out</a></li>
         <?php } ?>
     
     <li>
         <div class="divider"></div>
     </li>
-    <li><a target="_blank" href="https://emailmg.ipage.com/roundcube/" class="primary-color"><i class="fas fa-envelope primary-color"></i>Mail</a></li>
+    <li><a target="_blank" href="https://emailmg.ipage.com/roundcube/" class="primary-color"><i
+                    class="fas fa-envelope primary-color"></i>Mail</a></li>
 </ul>
 <!--.SIDENAV MOBILE-->

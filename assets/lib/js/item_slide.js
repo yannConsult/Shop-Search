@@ -108,13 +108,49 @@ $(document).ready(function() {
         ]
     });
 
-    // var slideIndex = 4;
+
+    // var starIndex = 0;
+    // var t = ['Restaurant', 'Jewerly', 'Perfume', 'Shoes', 'Calendar', 'Mugs', 'Coffee', 'Computer', 'Mouse', 'Drinks'];
+    // var slideIndex = t.length;
     // $(".next-btn").on("click", function() {
+    //     console.log('next btn click');
+    //     //remove all slide
+    //     if (starIndex < slideIndex - 1) {
+    //         for (var i = 0; i < 4; i++) {
+    //             $('.quick-search').slick('slickRemove', i);
+
+    //         }
+    //         starIndex = starIndex + i;
+    //     } else {
+    //         $(this).attr('disabled', "true");
+    //     }
+
+    //     console.log(i);
+    //     starIndex++;
+    //     var tempArray = new Array();
+
+    //     //fill temp Array
+    //     // for (var i = starIndex; i < slideIndex - 1; i++) {
+    //     //     tempArray.push(t[i + 1]);
+    //     // }
+    //     // console.log('Temp Array Data: ' + tempArray);
+    //     // //Add new slide
+    //     // for (var i = 0; i < tempArray.length; i++) {
+    //     //     $('.quick-search').slick('slickAdd', '<div><a href="#" class="no-deco"><div class="py-3 border text-dark px-3 mx-3 mb-2 rounded-button px-4 text-center"> ' + tempArray[i] + '</div></a></div>');
+    //     // }
+
+    //     // <
+    //     // div >
+    //     //     <
+    //     //     a href = "#"
+    //     // class = "no-deco" > < div class = "py-3 border text-dark px-3 mx-3 mb-2 rounded-button px-4 text-center" > Shoes < /div> </a >
+    //     //     <
+    //     //     /div>
 
     // });
 
-    // $(".prev-btn").on("click", function() {
+    $(".prev-btn").on("click", function() {
 
-    // });
+    });
 
 });

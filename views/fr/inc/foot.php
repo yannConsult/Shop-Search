@@ -15,7 +15,7 @@
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
 <script src="../../assets/lib/js/bootstrap.js"></script>
 <script src="../../assets/lib/js/bootstrap.min.js"></script>
-<!-- <script src="../../assets/lib/js/mdb.js"></script> -->
+<!-- <script src="../../assets/lib/js/mdb.js"></script>-->
 <script src="../../assets/lib/js/mdb.min.js"></script>
 <!--<script src="../../assets/lib/js/input.js"></script>
 <script src="../../assets/lib/js/dropdown.js"></script>
@@ -34,7 +34,7 @@
 <script src="../../assets/lib/js/select_form.js"></script>
 <script src="../../assets/lib/js/input_label_transform.js"></script>
 
-<script src="../../assets/lib/js/show_product_module.js"></script>
+<script src="../../assets/lib/js/item_slide.js"></script>
 
 <script src="../../assets/lib/js/fade_in.js"></script>
 
@@ -42,3 +42,7 @@
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/2.0.0/mdb.min.js"
         integrity="sha512-vSdibRCasesUi8b6oHWfYPa6LDzzaOXrggmyIebkuybwVF+pKEm3vN8ZDXBYdF93ckvVGePpAA3eMrcxvopWFg=="
         crossorigin="anonymous"></script> -->
+
+<script src="../../assets/lib/js/itemslide.min.js"></script>
+<script src="../../assets/lib/js/jquery.film_roll.min.js"></script>
+<script src="../../assets/lib/js/slick.min.js"></script>

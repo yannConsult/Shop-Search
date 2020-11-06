@@ -25,7 +25,7 @@
                     </div>
                 </div>
             </div>
-             <div class="d-inline-flex">
+            <div class="d-inline-flex">
                 <?php
                 $nbre = $db->query('SELECT * FROM `customer_notifications` WHERE status=?', 1)->numRows();
                 ?>
@@ -63,7 +63,7 @@
                         <?php
                     } else { ?>
                         <ul class="dropdown-menu mr-3" aria-labelledby="dropdownMenuButton">
-                            <li class="dropdown-item text-wrap">Aucunes Notifications</li>
+                            <li class="dropdown-item text-wrap">No Notification</li>
                         </ul>
                         <?php
                     } ?>
@@ -81,7 +81,7 @@
                 ?>
             </div>
 
-            
+
         </div>
 
     </div>
@@ -132,16 +132,16 @@
     <li>
         <div class="divider"></div>
     </li>
-    <li><a href="./product.php" class="primary-color"><i class="fas fa-gift primary-color"></i>Produits</a></li>
+    <li><a href="./product.php" class="primary-color"><i class="fas fa-gift primary-color"></i>Product</a></li>
     <li>
         <div class="divider"></div>
     </li>
-    <li><a href="./services.php" class="primary-color"><i class="fab fa-servicestack primary-color"></i>Services</a></li>
+    <li><a href="./services.php" class="primary-color"><i class="fab fa-servicestack primary-color"></i>Service</a></li>
     <li>
         <div class="divider"></div>
     </li>
     <!-- <li><a href="#" class="primary-color"><i class="fas fa-dollar-sign primary-color"></i>Princing</a></li> -->
-    <li><a href="./team.php" class="primary-color"><i class="fas fa-users primary-color"></i>Notre équipe</a></li>
+    <li><a href="./team.php" class="primary-color"><i class="fas fa-users primary-color"></i>Our team</a></li>
     <li>
         <div class="divider"></div>
     </li>
@@ -149,20 +149,21 @@
     <li>
         <div class="divider"></div>
     </li>
-    <li><a href="../en/index.php" class="primary-color"><i class="fas fa-file-contract primary-color"></i>English Version</a></li>
+    <li><a href="../fr/index.php" class="primary-color"><i class="fas fa-file-contract primary-color"></i>Version
+            Française</a></li>
     <li><div class="divider"></div></li>
         <?php if(!isset($_SESSION["id"])){ ?>
         
-            <li><a href="./login.php" class="primary-color"><i class="fas fa-sign-in-alt primary-color"></i>Se connecter</a></li>
+            <li><a href="./login.php" class="primary-color"><i class="fas fa-sign-in-alt primary-color"></i>Sign in</a></li>
         <?php }else{ ?>
             
             <li>
-               <a  href="../../../back-end/fr/c_logout.php" class="primary-color"><i class="fas fa-sign-out-alt primary-color"></i>Profil</a>
+               <a  href="../../../back-end/en/c_logout.php" class="primary-color"><i class="fas fa-sign-out-alt primary-color"></i>Profil</a>
             </li>
             <li>
                 <div class="divider"></div>
             </li>
-            <li><a  href="../../../back-end/fr/c_logout.php" class="primary-color"><i class="fas fa-sign-out-alt primary-color"></i>Se déconnecter</a></li>
+            <li><a  href="../../../back-end/en/c_logout.php" class="primary-color"><i class="fas fa-sign-out-alt primary-color"></i>Sign out</a></li>
         <?php } ?>
     
         <li><div class="divider"></div></li>
@@ -186,20 +187,20 @@
 
         </div>
     </li>
-    <li><a href="./index.php" class="primary-color"><i class="fas fa-home primary-color"></i>Accueil</a></li>
+    <li><a href="./index.php" class="primary-color"><i class="fas fa-home primary-color"></i>Home</a></li>
     <li>
         <div class="divider"></div>
     </li>
-    <li><a href="./product.php" class="primary-color"><i class="fas fa-gift primary-color"></i>Produits</a></li>
+    <li><a href="./product.php" class="primary-color"><i class="fas fa-gift primary-color"></i>Product</a></li>
     <li>
         <div class="divider"></div>
     </li>
-    <li><a href="./product.php" class="primary-color"><i class="fab fa-servicestack primary-color"></i>Services</a></li>
+    <li><a href="./product.php" class="primary-color"><i class="fab fa-servicestack primary-color"></i>Service</a></li>
     <li>
         <div class="divider"></div>
     </li>
     <!-- <li><a href="#" class="primary-color"><i class="fas fa-dollar-sign primary-color"></i>Princing</a></li> -->
-    <li><a href="./team.php" class="primary-color"><i class="fas fa-users primary-color"></i>Notre équipe</a></li>
+    <li><a href="./team.php" class="primary-color"><i class="fas fa-users primary-color"></i>Our team</a></li>
     <li>
         <div class="divider"></div>
     </li>
@@ -207,25 +208,27 @@
     <li>
         <div class="divider"></div>
     </li>
-    <li><a href="../en/index.php" class="primary-color"><i class="fas fa-file-contract primary-color"></i>English Version</a></li>
+    <li><a href="../fr/index.php" class="primary-color"><i class="fas fa-file-contract primary-color"></i>Version
+            Française</a></li>
 
-     <li><div class="divider"></div></li>
+    <li><div class="divider"></div></li>
         <?php if(!isset($_SESSION["id"])){ ?>
         
-            <li><a href="./login.php" class="primary-color"><i class="fas fa-sign-in-alt primary-color"></i>Se connecter</a></li>
+            <li><a href="./login.php" class="primary-color"><i class="fas fa-sign-in-alt primary-color"></i>Sign in</a></li>
         <?php }else{ ?>
             
             <li>
-               <a  href="../../../back-end/fr/c_logout.php" class="primary-color"><i class="fas fa-sign-out-alt primary-color"></i>Profil</a>
+               <a  href="../../../back-end/en/c_logout.php" class="primary-color"><i class="fas fa-sign-out-alt primary-color"></i>Profil</a>
             </li>
             <li>
                 <div class="divider"></div>
             </li>
-            <li><a  href="../../../back-end/fr/c_logout.php" class="primary-color"><i class="fas fa-sign-out-alt primary-color"></i>Se déconnecter</a></li>
+            <li><a  href="../../../back-end/en/c_logout.php" class="primary-color"><i class="fas fa-sign-out-alt primary-color"></i>Sign out</a></li>
         <?php } ?>
     
         <li><div class="divider"></div></li>
     <li><a target="_blank" href="https://emailmg.ipage.com/roundcube/" class="primary-color"><i
                     class="fas fa-envelope primary-color"></i>Mail</a></li>
 </ul>
+
 <!--.SIDENAV MOBILE-->

@@ -456,7 +456,7 @@ html {
     /* background-color: #112D39; */
     /* opacity: 0.9; */
     /* background: linear-gradient(140deg, rgba(17, 45, 57, 1) 0%, rgba(14, 54, 100, 1) 100%); */
-    background-color: rgba(101, 179, 46, 1) !important;
+    background-color: #65b32e !important;
 }
 
 .rounded-button {
@@ -1399,5 +1399,22 @@ li.item-swipe {
 }
 
 .bg-footer {
-    background-color: #5a9b2b !important;
+    background-color: #65b32e !important;
+}
+
+.search-result-input::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #f0f0f0 !important;
+    opacity: 1 !important;
+    /* Firefox */
+}
+
+.search-result-input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #f0f0f0 !important;
+}
+
+.search-result-input::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #f0f0f0 !important;
 }
